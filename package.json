@@ -1,0 +1,33 @@
+{
+  "name": "hackerrank-js-bot",
+  "version": "0.0.0",
+  "description": "A JS bot and build process for completing AI challenges presented at HackerRank.com.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matowens/hackerrank-js-bot"
+  },
+  "keywords": [
+    "Hacker",
+    "Rank",
+    "JS",
+    "Bot",
+    "AI",
+    "Starter",
+    "Build"
+  ],
+  "author": "Mat Owens <mat@peglegg.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matowens/hacker-rank-js-bot/issues"
+  },
+  "homepage": "https://github.com/matowens/hacker-rank-js-bot",
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-shell": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

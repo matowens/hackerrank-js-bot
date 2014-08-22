@@ -1,0 +1,31 @@
+
+1 line :: N K = # of Cities # of Machines
+
+N-1 lines follow line 1 :: x y z = City1 City2 Time [Roads]
+
+K lines follow :: i = City with Machine Present
+
+Ex: 
+
+5 3		:: 5 cities, 3 machines
+2 1 8	:: road 2-1, time 8
+1 0 5	:: road 1-0, time 5
+2 4 5	:: road 2-4, time 5
+1 3 2 	:: road 1-3, time 2
+2 		:: machine in city 2
+4 		:: machine in city 4
+0 		:: machine in city 0
+
+
+
+0 - 1 - 2 - 3 - 4
+
+Start at 0 - has paths?
+
+yes -
+
+each path
+ is to machine - 1
+
+no -
+
